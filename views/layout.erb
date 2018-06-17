@@ -1,0 +1,105 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+         <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/main.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+<body>
+<!-- Nav Bar -->
+
+  <div class="navbar-fixed">
+    <nav class="#795548">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Friendly Bakery</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger"> 
+            <i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            <li><a href="/cakes">Cakes</a></li>
+            <li><a href="/cookies">Cookies</a></li>
+            <li><a href="/muffins">Muffins</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+      <ul class="sidenav" id="mobile-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/cakes">Cakes</a></li>
+      <li><a href="/cookies">Cookies</a></li>
+      <li><a href="/muffins">Muffins</a></li>
+    </ul>
+   
+ 
+<div>
+  <%= yield %>
+</div>
+<!-- </div> -->
+<div class="footer">
+  <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Follow us on social media for special offers:</h5>
+                  <a href="htttps://facebook.com" target="_blank" class="white-text">
+                    <i class="fab fa-facebook fa-4x"></i>
+                  </a>
+                  <a href="htttps://twitter.com" target="_blank" class="white-text">
+                    <i class="fab fa-twitter fa-4x"></i>
+                  </a>
+                  <a href="htttps://linkedin.com" target="_blank" class="white-text">
+                    <i class="fab fa-linkedin fa-4x"></i>
+                  </a>
+                  <a href="htttps://googleplus.com" target="_blank" class="white-text">
+                    <i class="fab fa-google-plus fa-4x"></i>
+                  </a>
+                  <a href="htttps://pinterest.com" target="_blank" class="white-text">
+                    <i class="fab fa-pinterest fa-4x"></i>
+                  </a>
+              </div>
+              <div class="col l3  s12">
+                <h5 class="white-text"></h5>Contact Us:
+                  <ul>
+                    <li class="text">Friendly Bakery</li>
+                    <li class="text">9727 Broadway</li>
+                    <li class="text">New York, NY 10012</li>
+                    <li class="text">(646) 987-7896</li>
+                  </ul>
+              </div>
+              <div class="col l3  s12">
+                  <h5 class="white-text">Sign up for a Catalog:</h5>
+                    <form action="/contact" method="POST">
+                      <div class="input-field inline">
+                        <input name="email" id="email_inline" type="email" placeholder="name@example.com" class="white-text validate">
+                        <label for="email_inline" class="white-text">Please enter your Email</label>
+                        <span class="white-helper-text" data-error="wrong" data-success="right">Email Address</span>
+                      </div>
+                    </form>
+                </div>
+
+            </div>
+          </div>
+          <div class="footer-copyright darken-4 center">
+            <div class="container center">
+            Friendly Bakery © 2018
+            </div>
+          </div>
+  </footer>
+</div>     
+    <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    </body>
+  </html>
