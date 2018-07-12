@@ -13,6 +13,7 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     ruby_http_client (3.3.0)
+    rubygems-update (2.7.7)
     sass (3.5.6)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -36,6 +37,7 @@ PLATFORMS
 DEPENDENCIES
   json
   materialize-sass (~> 0.96.1)
+  rubygems-update (~> 2.4, >= 2.4.4)
   sendgrid-ruby
   shotgun
   sinatra

@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 	gem 'sinatra'
+	gem 'rubygems-update', '~> 2.4', '>= 2.4.4'
 	gem 'shotgun'
 	gem 'sendgrid-ruby'
 	gem 'json'
