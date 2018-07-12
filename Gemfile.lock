@@ -1,14 +1,10 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
-    autoprefixer-rails (8.6.4)
-      execjs
-    execjs (2.7.0)
     ffi (1.9.25)
     json (2.1.0)
-    materialize-sass (1.0.0.rc2)
-      autoprefixer-rails (>= 6.0.3)
-      sass (>= 3.5.2)
+    materialize-sass (0.96.2)
+      sass (~> 3.3)
     mustermann (1.0.2)
     rack (2.0.5)
     rack-protection (2.0.3)
@@ -38,11 +34,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  json!
-  materialize-sass (~> 1.0.0.beta)!
-  sendgrid-ruby!
-  shotgun!
-  sinatra!
+  json
+  materialize-sass (~> 0.96.1)
+  sendgrid-ruby
+  shotgun
+  sinatra
 
 BUNDLED WITH
    1.16.2
